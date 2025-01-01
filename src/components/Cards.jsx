@@ -7,7 +7,6 @@ import "./Cards.css";
 function Cards({ title, userLinks, cardImagelink }) {
   return (
     <>
-    
       <div className="card">
         <div className="card-image">
           <Link to={userLinks}>
